@@ -1,0 +1,5 @@
+node_modules/
+.devdebugger_checkpoints/
+.devdebugger_logs/
+.DS_Store
+dist/

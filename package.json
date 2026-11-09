@@ -1,0 +1,22 @@
+{
+  "name": "devdebugger-ai",
+  "version": "1.0.0",
+  "description": "DevDebugger AI — Autonomous Code Debugging Agent",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "test": "node tests/runner.js"
+  },
+  "keywords": ["debugging", "ai", "agent", "autonomous", "developer-tools"],
+  "author": "DevDebugger Team",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^8.1.0",
+    "cors": "^2.8.6",
+    "diff": "^9.0.0",
+    "express": "^5.3.0",
+    "ws": "^8.22.2"
+  }
+}
